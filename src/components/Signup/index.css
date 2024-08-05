@@ -1,0 +1,119 @@
+.login-bg-cont {
+    background-color: #000000;
+    min-height: 100vh;
+    background-size: cover;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+  @media screen and (min-width:768px){
+    .login-bg-cont{
+      flex-direction: row;
+    }
+
+  }
+  .website-logo-2-style {
+    height: 35px;
+    border-radius: 5px;
+    color: #ffffff;
+    font-size: 60px;
+  }
+  .span-style{
+    color: red;
+  }
+  .form-button-cont{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: 20px;
+
+  }
+  .login-form-cont {
+    background-color: #f7f9ff;
+    min-height: 42vh;
+    width: 40vh;
+    border-radius: 8px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: 20px;
+  }
+  .welcome-cont{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding: 20px;
+    margin-bottom: 20px;
+    text-align: center;
+   
+
+  }
+  .welcome-h-style{
+    font-family: "Roboto";
+    color:#ffffff ;
+  }
+  .welcome-p-style{
+    font-family: "Roboto";
+    color:#ffffff ;
+
+  }
+
+  .login-main-head{
+    font-family: "Roboto";
+    color: #4f5451;
+  }
+  .signup-bt-style{
+    background-color: transparent;
+    border: none;
+  }
+  .signup-navigate-p-style{
+    font-family: "Roboto";
+    color: #5e78bd;
+    margin-top: 20px;
+    font-weight: bold;
+    font-size: 16px;
+
+  }
+  .input-cont {
+    display: flex;
+    flex-direction: column;
+    margin-top: 20px;
+    width: 35vh;
+    padding: 5px;
+  }
+  .label-style {
+    font-family: 'Roboto';
+    color: #4f5451;
+    font-size: 12px;
+    font-weight: bold;
+  }
+  .input-style {
+    background-color: transparent;
+    border: 1px solid #7e858e;
+    border-radius: 5px;
+    margin-top: 10px;
+    height: 35px;
+    color: #7e858e;
+    font-family: 'Roboto';
+    padding: 10px;
+  }
+  .login-button {
+    background-color: #6366f1;
+    color: #ffffff;
+    font-family: 'Roboto';
+    border: none;
+    border-radius: 8px;
+    margin-top: 20px;
+    width: 35vh;
+    height: 35px;
+  }
+  
+  .error-style {
+    color: #ff0b37;
+    font-family: 'Roboto';
+    font-size: 10px;
+    margin-top: 5px;
+  }
